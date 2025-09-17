@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import logoImage from "../public/vercel.svg";
-import { useUser } from '../context/UserContext';
+import { useUser } from '../../context/UserContext';
 
 type Item = {
   icon: React.ReactNode;
